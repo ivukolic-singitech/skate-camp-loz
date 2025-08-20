@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skate Camp LOZ 2025</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Skate Camp LOZ">
+    <link rel="apple-touch-icon" href="icon-512.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛹 Skate Camp LOZ 2025</h1>
+            <div class="nav-tabs">
+                <div class="nav-tab active" data-page="landing">Home</div>
+                <div class="nav-tab" data-page="schedule">Schedule</div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="landing" class="page active">
+                <div class="landing-content">
+                    <h2 class="camp-title">Skate Camp LOZ 2025</h2>
+                    <div class="camp-date">August 12-17, 2025</div>
+                    <div class="camp-location">🏔️ Join us in Switzerland!</div>
+                    <div class="camp-description">
+                        <strong>Lausanne, Switzerland</strong> with its hilly surroundings is the perfect destination for anyone who wants to learn how to tackle inclines. Spend a four day weekend sliding down hills and improving your stopping techniques with passionate and expert instructors.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="schedule" class="page">
+                <div class="loading" id="loading">Loading schedule...</div>
+                <div class="schedule-grid" id="schedule-grid"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="install-prompt" id="installPrompt">
+        <div>
+            <strong>Install Skate Camp LOZ</strong><br>
+            <small>Add to your home screen for easy access</small>
+        </div>
+        <div>
+            <button class="install-btn" id="installBtn">Install</button>
+            <button class="dismiss-btn" id="dismissBtn">×</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
